@@ -1,5 +1,5 @@
 size 1280 960
-output art/bishop.png
+output samples/bishop.png
 
 camera 10 10 14 0 0 0 0 1 0 40
 

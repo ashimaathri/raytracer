@@ -1,5 +1,5 @@
 size 1280 960
-output art/stand.png
+output samples/stand.png
 
 camera 10 10 14 0 0 0 0 1 0 40
 

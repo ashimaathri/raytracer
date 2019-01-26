@@ -1,6 +1,6 @@
 #size 1280 960
 size 2560 1920
-output art/checkboard.png
+output samples/chessboard.png
 
 camera 6 2 4 0 0 0 0 1 0 40
 
