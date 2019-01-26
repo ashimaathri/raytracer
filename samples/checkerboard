@@ -1,0 +1,2677 @@
+#size 1280 960
+size 2560 1920
+output art/checkboard.png
+
+camera 6 2 4 0 0 0 0 1 0 40
+
+ambient 0 0 0
+
+# Key light
+point 7.071 0.414 -2.414 1 1 1
+# Fill light side
+point 3.196 -0.331 6.758 0.4 0.4 0.4
+point 1 1 0 0.2 0.2 0.2
+
+maxverts 12
+
+vertex -1 -1 -1
+vertex +1 -1 -1 
+vertex +1 +1 -1 
+vertex -1 +1 -1 
+vertex -1 -1 +1
+vertex +1 -1 +1 
+vertex +1 +1 +1
+vertex -1 +1 +1
+vertex 0.5 +1 -0.5
+vertex -0.5 +1 -0.5
+vertex 0.5 +1 +0.5
+vertex -0.5 +1 +0.5
+
+pushTransform
+  # Floor
+  pushTransform
+    scale 18 1 8
+    translate 0 -2.9 0
+    ambient 0 0 0
+    diffuse 1 0.95 0.89
+    tri 3 7 6
+    tri 3 6 2
+  popTransform
+  # Back
+  pushTransform
+    scale 1 15 9
+    translate -18 0 0
+    diffuse 0.396	0.74151	0.69102
+    tri 1 2 6
+    tri 1 6 5 
+  popTransform
+  # Side
+  pushTransform
+    scale 18 8 1
+    translate 0 0 -7
+    diffuse 0.396	0.74151	0.69102
+    tri 0 1 2
+    tri 0 2 3
+  popTransform
+
+  pushTransform
+    scale 0.2 0.05 0.2
+    pushTransform
+      translate 0 0 8 
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 0 0 6
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 0 0 4 
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 0 0 2
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 0 0 0
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 0 0 -2
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 0 0 -4
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 0 0 -6
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 2 0 8
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 2 0 6
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 2 0 4
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 2 0 2
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 2 0 0
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 2 0 -2
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 2 0 -4
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 2 0 -6
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      translate 4 0 8 
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 4 0 6
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 4 0 4 
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 4 0 2
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 4 0 0
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 4 0 -2
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 4 0 -4
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 4 0 -6
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 6 0 8
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 6 0 6
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 6 0 4
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 6 0 2
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 6 0 0
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 6 0 -2
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 6 0 -4
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 6 0 -6
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      translate 8 0 8 
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 8 0 6
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 8 0 4 
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 8 0 2
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 8 0 0
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 8 0 -2
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 8 0 -4
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 8 0 -6
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 10 0 8
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 10 0 6
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 10 0 4
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 10 0 2
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 10 0 0
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 10 0 -2
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 10 0 -4
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 10 0 -6
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      translate 12 0 8 
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 12 0 6
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 12 0 4 
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 12 0 2
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 12 0 0
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 12 0 -2
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 12 0 -4
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 12 0 -6
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 14 0 8
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 14 0 6
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 14 0 4
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 14 0 2
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 14 0 0
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 14 0 -2
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.1 0.1 0.1
+      specular 0.1 0.1 0.1
+      translate 14 0 -4
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      diffuse 0.6 0.6 0.6
+      specular 0.4 0.4 0.4
+      translate 14 0 -6
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+  popTransform
+
+  # STAND
+  pushTransform
+    translate 1.3 -1.8 0
+    scale 0.4 0.325 0.4
+    shininess 80
+    ambient 0 0 0
+    diffuse 0.437 0.199 0.1
+    specular 0.1 0.1 0.03
+    pushTransform
+      scale 1.4 0.17 1.4
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      translate 0 0.2 0
+      scale 1.4 0.03 1.4
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 .25 0
+      scale 0.8 0.02 0.8
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      translate 0 .28 0
+      scale 0.75 0.02 0.75
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 3 7 6
+      tri 3 6 2
+      tri 1 2 6
+      tri 1 6 5 
+      tri 0 7 3 
+      tri 0 4 7 
+      tri 0 3 2 
+      tri 0 2 1
+      tri 4 5 6 
+      tri 4 6 7 
+    popTransform
+
+    pushTransform
+      translate 0 0.32 0
+      scale 1 0.02 1
+      sphere 0 0 0 0.4
+    popTransform
+
+    pushTransform
+      translate 0 5 0
+      scale 0.8 0.5 0.8
+      rotate 1 0 0 180
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 4.5 0
+      scale 0.3 0.8 0.3
+      sphere 0 0 0 1
+    popTransform
+
+    pushTransform
+      translate 0 3.5 0
+      scale 0.3 0.8 0.3
+      sphere 0 0 0 1
+    popTransform
+
+    pushTransform
+      translate 0 2.5 0
+      scale 0.32 0.8 0.32
+      sphere 0 0 0 1
+    popTransform
+
+    pushTransform
+      translate 0 1.5 0
+      scale 0.32 0.8 0.32
+      sphere 0 0 0 1
+    popTransform
+
+    pushTransform
+      translate 0 .5 0
+      scale 0.32 0.8 0.32
+      sphere 0 0 0 1
+    popTransform
+  popTransform
+
+  # PAWN BLACK G7
+  pushTransform
+    scale 0.08 0.08 0.08
+    shininess 38.4
+    ambient 0.05375	0.05 0.06625
+    diffuse 0.18275	0.17 0.22525
+    specular 0.332741	0.328634 0.346435
+    translate 30 0 -10
+    pushTransform
+      translate 0 1.1 0
+      scale 1 0.5 1
+      pushTransform
+        translate 0 -1 0
+        scale 1.5 0.1 1.5
+        sphere 0 0 0 1
+      popTransform
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 3 0
+      pushTransform
+        translate 0 -1.3 0
+        scale 1 0.1 1
+        sphere 0 0 0 1
+      popTransform
+      scale 0.5 1.5 0.5
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 4 0
+      pushTransform
+        translate 0 -0.5 0
+        scale 0.8 0.1 0.8
+        sphere 0 0 0 1
+      popTransform
+      sphere 0 0 0 0.7
+    popTransform
+  popTransform
+
+  # PAWN BLACK H7
+  pushTransform
+    scale 0.08 0.08 0.08
+    shininess 38.4
+    ambient 0.05375	0.05 0.06625
+    diffuse 0.18275	0.17 0.22525
+    specular 0.332741	0.328634 0.346435
+    translate 35 0 -10
+    pushTransform
+      translate 0 1.1 0
+      scale 1 0.5 1
+      pushTransform
+        translate 0 -1 0
+        scale 1.5 0.1 1.5
+        sphere 0 0 0 1
+      popTransform
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 3 0
+      pushTransform
+        translate 0 -1.3 0
+        scale 1 0.1 1
+        sphere 0 0 0 1
+      popTransform
+      scale 0.5 1.5 0.5
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 4 0
+      pushTransform
+        translate 0 -0.5 0
+        scale 0.8 0.1 0.8
+        sphere 0 0 0 1
+      popTransform
+      sphere 0 0 0 0.7
+    popTransform
+  popTransform
+
+  # PAWN WHITE D6
+  pushTransform
+    scale 0.08 0.08 0.08
+    shininess 11.2
+    ambient 0.25 0.20725 0.20725
+    diffuse 1	0.829	0.829
+    specular 0.296648	0.296648	0.296648
+    translate 15 0 -5
+    pushTransform
+      translate 0 1.1 0
+      scale 1 0.5 1
+      pushTransform
+        translate 0 -1 0
+        scale 1.5 0.1 1.5
+        sphere 0 0 0 1
+      popTransform
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 3 0
+      pushTransform
+        translate 0 -1.3 0
+        scale 1 0.1 1
+        sphere 0 0 0 1
+      popTransform
+      scale 0.5 1.5 0.5
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 4 0
+      pushTransform
+        translate 0 -0.5 0
+        scale 0.8 0.1 0.8
+        sphere 0 0 0 1
+      popTransform
+      sphere 0 0 0 0.7
+    popTransform
+  popTransform
+
+  # PAWN BLACK A5
+  pushTransform
+    scale 0.08 0.08 0.08
+    shininess 38.4
+    ambient 0.05375	0.05 0.06625
+    diffuse 0.18275	0.17 0.22525
+    specular 0.332741	0.328634 0.346435
+    pushTransform
+      translate 0 1.1 0
+      scale 1 0.5 1
+      pushTransform
+        translate 0 -1 0
+        scale 1.5 0.1 1.5
+        sphere 0 0 0 1
+      popTransform
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 3 0
+      pushTransform
+        translate 0 -1.3 0
+        scale 1 0.1 1
+        sphere 0 0 0 1
+      popTransform
+      scale 0.5 1.5 0.5
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 4 0
+      pushTransform
+        translate 0 -0.5 0
+        scale 0.8 0.1 0.8
+        sphere 0 0 0 1
+      popTransform
+      sphere 0 0 0 0.7
+    popTransform
+  popTransform
+
+  # BISHOP BLACK H4
+  pushTransform
+    scale 0.1 0.1 0.1
+    shininess 38.4
+    ambient 0.05375	0.05 0.06625
+    diffuse 0.18275	0.17 0.22525
+    specular 0.332741	0.328634 0.346435
+    translate 28 0 4 
+    pushTransform
+      translate 0 1.1 0
+      scale 1 0.5 1
+      pushTransform
+        translate 0 -1 0
+        scale 1.5 0.1 1.5
+        sphere 0 0 0 1
+      popTransform
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 3 0
+      pushTransform
+        translate 0 -1.3 0
+        scale 1 0.1 1
+        sphere 0 0 0 1
+      popTransform
+      scale 0.5 1.5 0.5
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 4 0
+      pushTransform
+        translate 0 -0.5 0
+        scale 0.8 0.1 0.8
+        sphere 0 0 0 1
+      popTransform
+      pushTransform
+        translate 0 -0.3 0
+        scale 0.7 0.1 0.7
+        sphere 0 0 0 1
+      popTransform
+      pushTransform
+        translate 0 -0.1 0
+        scale 0.65 0.1 0.65
+        sphere 0 0 0 1
+      popTransform
+      pushTransform
+        scale 0.7 1.3 0.7
+        translate 0 0.2 0
+        sphere 0 0 0 0.7
+      popTransform
+      translate 0 1.2 0
+      sphere 0 0 0 0.17
+    popTransform
+  popTransform
+
+  # ROOK BLACK G8
+  pushTransform
+    scale 0.1 0.1 0.1
+    shininess 38.4
+    ambient 0.05375	0.05 0.06625
+    diffuse 0.18275	0.17 0.22525
+    specular 0.332741	0.328634 0.346435
+    translate 24 0 -12
+    pushTransform
+      translate 0 1.1 0
+      scale 1 0.5 1
+      pushTransform
+        translate 0 -1 0
+        scale 1.5 0.1 1.5
+        sphere 0 0 0 1
+      popTransform
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 1.75 0
+      scale 0.85 1.2 0.85
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 3.2 0
+      pushTransform
+        scale 0.65 0.35 0.65
+        tri 0 1 5 
+        tri 0 5 4 
+        tri 1 2 6
+        tri 1 6 5 
+        tri 0 7 3 
+        tri 0 4 7 
+        tri 0 3 2 
+        tri 0 2 1
+        tri 4 5 6 
+        tri 4 6 7 
+      popTransform
+      pushTransform
+        scale 0.15 0.1 0.2
+        translate -3.3 4.5 2.25
+        tri 4 5 6 
+        tri 4 6 7 
+      popTransform
+      pushTransform
+        scale 0.15 0.1 0.2
+        translate 3.3 4.5 2.25
+        tri 4 5 6 
+        tri 4 6 7 
+      popTransform
+      pushTransform
+        scale 0.15 0.1 0.2
+        translate -3.3 4.5 -2.25
+        tri 0 3 2 
+        tri 0 2 1
+      popTransform
+      pushTransform
+        scale 0.15 0.1 0.2
+        translate 3.3 4.5 -2.25
+        tri 0 3 2 
+        tri 0 2 1
+      popTransform
+      pushTransform
+        scale 0.15 0.1 0.2
+        translate 3.3 4.5 2.25
+        tri 1 2 6
+        tri 1 6 5 
+      popTransform
+      pushTransform
+        scale 0.15 0.1 0.2
+        translate 3.3 4.5 -2.25
+        tri 1 2 6
+        tri 1 6 5 
+      popTransform
+      pushTransform
+        scale 0.15 0.1 0.2
+        translate -3.3 4.5 2.25
+        tri 0 7 3 
+        tri 0 4 7 
+      popTransform
+      pushTransform
+        scale 0.15 0.1 0.2
+        translate -3.3 4.5 -2.25
+        tri 0 7 3 
+        tri 0 4 7 
+      popTransform
+    popTransform
+  popTransform
+
+  # KING BLACK H8
+  pushTransform
+    scale 0.1 0.1 0.1
+    shininess 38.4
+    ambient 0.05375	0.05 0.06625
+    diffuse 0.18275	0.17 0.22525
+    specular 0.332741	0.328634 0.346435
+    translate 28 0 -12
+    rotate 0 1 0 90
+
+    pushTransform
+      translate 0 1.1 0
+      scale 1 0.5 1
+      pushTransform
+        translate 0 -1 0
+        scale 1.5 0.1 1.5
+        sphere 0 0 0 1
+      popTransform
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 3 0
+      pushTransform
+        translate 0 -1.3 0
+        scale 1 0.1 1
+        sphere 0 0 0 1
+      popTransform
+      scale 0.5 1.5 0.5
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 4.4 0
+      rotate 1 0 0 180
+      scale 0.55 0.8 0.55
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 4.2 0
+      pushTransform
+        translate 0 -0.5 0
+        scale 0.8 0.1 0.8
+        sphere 0 0 0 1
+      popTransform
+      pushTransform
+        translate 0 -0.4 0
+        scale 0.7 0.1 0.7
+        sphere 0 0 0 1
+      popTransform
+      pushTransform
+        translate 0 -0.3 0
+        scale 0.6 0.1 0.6
+        sphere 0 0 0 1
+      popTransform
+      pushTransform
+        translate 0 1.03 0
+        scale 0.6 0.2 0.6
+        sphere 0 0 0 .5
+      popTransform
+      pushTransform
+        translate 0 1.4 0
+        rotate 1 0 0 90
+        scale 0.08 0.6 0.08
+        tri 0 1 5 
+        tri 0 5 4 
+        tri 3 7 6
+        tri 3 6 2
+        tri 1 2 6
+        tri 1 6 5 
+        tri 0 7 3 
+        tri 0 4 7 
+        tri 0 3 2 
+        tri 0 2 1
+        tri 4 5 6 
+        tri 4 6 7 
+      popTransform
+      pushTransform
+        translate 0 1.2 0
+        scale 0.2 0.2 0.2
+        tri 0 1 5 
+        tri 0 5 4 
+        tri 9 11 10
+        tri 9 10 8
+        tri 1 8 10
+        tri 1 10 5 
+        tri 0 11 9 
+        tri 0 4 11 
+        tri 0 9 8 
+        tri 0 8 1
+        tri 4 5 10 
+        tri 4 10 11 
+      popTransform
+      pushTransform
+        translate 0 1.5 0
+        rotate 1 0 0 180
+        scale 0.2 0.15 0.2
+        tri 0 1 5 
+        tri 0 5 4 
+        tri 9 11 10
+        tri 9 10 8
+        tri 1 8 10
+        tri 1 10 5 
+        tri 0 11 9 
+        tri 0 4 11 
+        tri 0 9 8 
+        tri 0 8 1
+        tri 4 5 10 
+        tri 4 10 11 
+      popTransform
+    popTransform
+  popTransform
+
+  # QUEEN WHITE C3
+  pushTransform
+    scale 0.1 0.1 0.1
+    shininess 11.2
+    ambient 0.25 0.20725 0.20725
+    diffuse 1	0.829	0.829
+    specular 0.296648	0.296648	0.296648
+    translate 8 0 8
+    pushTransform
+      translate 0 1.1 0
+      scale 1 0.5 1
+      pushTransform
+        translate 0 -1 0
+        scale 1.5 0.1 1.5
+        sphere 0 0 0 1
+      popTransform
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 3 0
+      pushTransform
+        translate 0 -1.3 0
+        scale 1 0.1 1
+        sphere 0 0 0 1
+      popTransform
+      scale 0.5 1.5 0.5
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 4.4 0
+      rotate 1 0 0 180
+      scale 0.45 0.8 0.45
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+    pushTransform
+      translate 0 4.4 0
+      rotate 1 0 0 180
+      rotate 0 1 0 45
+      scale 0.45 0.8 0.45
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 4.2 0
+      pushTransform
+        translate 0 -0.5 0
+        scale 0.8 0.1 0.8
+        sphere 0 0 0 1
+      popTransform
+      pushTransform
+        translate 0 -0.3 0
+        scale 0.7 0.1 0.7
+        sphere 0 0 0 1
+      popTransform
+      pushTransform
+        translate 0 -0.1 0
+        scale 0.65 0.1 0.65
+        sphere 0 0 0 1
+      popTransform
+      pushTransform
+        translate 0 0.8 0
+        sphere 0 0 0 .4
+      popTransform
+      translate 0 1.3 0
+      sphere 0 0 0 0.14
+    popTransform
+  popTransform
+
+  # PAWN WHITE F3
+  pushTransform
+    scale 0.08 0.08 0.08
+    shininess 11.2
+    ambient 0.25 0.20725 0.20725
+    diffuse 1	0.829	0.829
+    specular 0.296648	0.296648	0.296648
+    translate 25 0 10 
+    pushTransform
+      translate 0 1.1 0
+      scale 1 0.5 1
+      pushTransform
+        translate 0 -1 0
+        scale 1.5 0.1 1.5
+        sphere 0 0 0 1
+      popTransform
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 3 0
+      pushTransform
+        translate 0 -1.3 0
+        scale 1 0.1 1
+        sphere 0 0 0 1
+      popTransform
+      scale 0.5 1.5 0.5
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 4 0
+      pushTransform
+        translate 0 -0.5 0
+        scale 0.8 0.1 0.8
+        sphere 0 0 0 1
+      popTransform
+      sphere 0 0 0 0.7
+    popTransform
+  popTransform
+
+  # PAWN WHITE H3
+  pushTransform
+    scale 0.08 0.08 0.08
+    shininess 11.2
+    ambient 0.25 0.20725 0.20725
+    diffuse 1	0.829	0.829
+    specular 0.296648	0.296648	0.296648
+    translate 35 0 10 
+    pushTransform
+      translate 0 1.1 0
+      scale 1 0.5 1
+      pushTransform
+        translate 0 -1 0
+        scale 1.5 0.1 1.5
+        sphere 0 0 0 1
+      popTransform
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 3 0
+      pushTransform
+        translate 0 -1.3 0
+        scale 1 0.1 1
+        sphere 0 0 0 1
+      popTransform
+      scale 0.5 1.5 0.5
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 4 0
+      pushTransform
+        translate 0 -0.5 0
+        scale 0.8 0.1 0.8
+        sphere 0 0 0 1
+      popTransform
+      sphere 0 0 0 0.7
+    popTransform
+  popTransform
+
+  # PAWN WHITE A2
+  pushTransform
+    scale 0.08 0.08 0.08
+    shininess 11.2
+    ambient 0.25 0.20725 0.20725
+    diffuse 1	0.829	0.829
+    specular 0.296648	0.296648	0.296648
+    translate 0 0 15
+    pushTransform
+      translate 0 1.1 0
+      scale 1 0.5 1
+      pushTransform
+        translate 0 -1 0
+        scale 1.5 0.1 1.5
+        sphere 0 0 0 1
+      popTransform
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 3 0
+      pushTransform
+        translate 0 -1.3 0
+        scale 1 0.1 1
+        sphere 0 0 0 1
+      popTransform
+      scale 0.5 1.5 0.5
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 4 0
+      pushTransform
+        translate 0 -0.5 0
+        scale 0.8 0.1 0.8
+        sphere 0 0 0 1
+      popTransform
+      sphere 0 0 0 0.7
+    popTransform
+  popTransform
+
+  # PAWN WHITE B2
+  pushTransform
+    scale 0.08 0.08 0.08
+    shininess 11.2
+    ambient 0.25 0.20725 0.20725
+    diffuse 1	0.829	0.829
+    specular 0.296648	0.296648	0.296648
+    translate 5 0 15
+    pushTransform
+      translate 0 1.1 0
+      scale 1 0.5 1
+      pushTransform
+        translate 0 -1 0
+        scale 1.5 0.1 1.5
+        sphere 0 0 0 1
+      popTransform
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 3 0
+      pushTransform
+        translate 0 -1.3 0
+        scale 1 0.1 1
+        sphere 0 0 0 1
+      popTransform
+      scale 0.5 1.5 0.5
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 4 0
+      pushTransform
+        translate 0 -0.5 0
+        scale 0.8 0.1 0.8
+        sphere 0 0 0 1
+      popTransform
+      sphere 0 0 0 0.7
+    popTransform
+  popTransform
+
+  # PAWN BLACK D2
+  pushTransform
+    scale 0.08 0.08 0.08
+    shininess 38.4
+    ambient 0.05375	0.05 0.06625
+    diffuse 0.18275	0.17 0.22525
+    specular 0.332741	0.328634 0.346435
+    translate 15 0 15
+    pushTransform
+      translate 0 1.1 0
+      scale 1 0.5 1
+      pushTransform
+        translate 0 -1 0
+        scale 1.5 0.1 1.5
+        sphere 0 0 0 1
+      popTransform
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 3 0
+      pushTransform
+        translate 0 -1.3 0
+        scale 1 0.1 1
+        sphere 0 0 0 1
+      popTransform
+      scale 0.5 1.5 0.5
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 4 0
+      pushTransform
+        translate 0 -0.5 0
+        scale 0.8 0.1 0.8
+        sphere 0 0 0 1
+      popTransform
+      sphere 0 0 0 0.7
+    popTransform
+  popTransform
+
+  # PAWN BLACK F2
+  pushTransform
+    scale 0.08 0.08 0.08
+    shininess 38.4
+    ambient 0.05375	0.05 0.06625
+    diffuse 0.18275	0.17 0.22525
+    specular 0.332741	0.328634 0.346435
+    translate 25 0 15
+    pushTransform
+      translate 0 1.1 0
+      scale 1 0.5 1
+      pushTransform
+        translate 0 -1 0
+        scale 1.5 0.1 1.5
+        sphere 0 0 0 1
+      popTransform
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 3 0
+      pushTransform
+        translate 0 -1.3 0
+        scale 1 0.1 1
+        sphere 0 0 0 1
+      popTransform
+      scale 0.5 1.5 0.5
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 4 0
+      pushTransform
+        translate 0 -0.5 0
+        scale 0.8 0.1 0.8
+        sphere 0 0 0 1
+      popTransform
+      sphere 0 0 0 0.7
+    popTransform
+  popTransform
+
+  # QUEEN BLACK C3
+  pushTransform
+    scale 0.1 0.1 0.1
+    shininess 38.4
+    ambient 0.05375	0.05 0.06625
+    diffuse 0.18275	0.17 0.22525
+    specular 0.332741	0.328634 0.346435
+    translate 24 0 16
+    pushTransform
+      translate 0 1.1 0
+      scale 1 0.5 1
+      pushTransform
+        translate 0 -1 0
+        scale 1.5 0.1 1.5
+        sphere 0 0 0 1
+      popTransform
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 3 0
+      pushTransform
+        translate 0 -1.3 0
+        scale 1 0.1 1
+        sphere 0 0 0 1
+      popTransform
+      scale 0.5 1.5 0.5
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 4.4 0
+      rotate 1 0 0 180
+      scale 0.45 0.8 0.45
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+    pushTransform
+      translate 0 4.4 0
+      rotate 1 0 0 180
+      rotate 0 1 0 45
+      scale 0.45 0.8 0.45
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 4.2 0
+      pushTransform
+        translate 0 -0.5 0
+        scale 0.8 0.1 0.8
+        sphere 0 0 0 1
+      popTransform
+      pushTransform
+        translate 0 -0.3 0
+        scale 0.7 0.1 0.7
+        sphere 0 0 0 1
+      popTransform
+      pushTransform
+        translate 0 -0.1 0
+        scale 0.65 0.1 0.65
+        sphere 0 0 0 1
+      popTransform
+      pushTransform
+        translate 0 0.8 0
+        sphere 0 0 0 .4
+      popTransform
+      translate 0 1.3 0
+      sphere 0 0 0 0.14
+    popTransform
+  popTransform
+
+  # KING WHITE G2
+  pushTransform
+    scale 0.1 0.1 0.1
+    shininess 11.2
+    ambient 0.25 0.20725 0.20725
+    diffuse 1	0.829	0.829
+    specular 0.296648	0.296648	0.296648
+    translate 24 2 12
+    rotate 0 0 -1 100
+
+    pushTransform
+      translate 0 1.1 0
+      scale 1 0.5 1
+      pushTransform
+        translate 0 -1 0
+        scale 1.5 0.1 1.5
+        sphere 0 0 0 1
+      popTransform
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 3 0
+      pushTransform
+        translate 0 -1.3 0
+        scale 1 0.1 1
+        sphere 0 0 0 1
+      popTransform
+      scale 0.5 1.5 0.5
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 4.4 0
+      rotate 1 0 0 180
+      scale 0.55 0.8 0.55
+      tri 0 1 5 
+      tri 0 5 4 
+      tri 9 11 10
+      tri 9 10 8
+      tri 1 8 10
+      tri 1 10 5 
+      tri 0 11 9 
+      tri 0 4 11 
+      tri 0 9 8 
+      tri 0 8 1
+      tri 4 5 10 
+      tri 4 10 11 
+    popTransform
+
+    pushTransform
+      translate 0 4.2 0
+      pushTransform
+        translate 0 -0.5 0
+        scale 0.8 0.1 0.8
+        sphere 0 0 0 1
+      popTransform
+      pushTransform
+        translate 0 -0.4 0
+        scale 0.7 0.1 0.7
+        sphere 0 0 0 1
+      popTransform
+      pushTransform
+        translate 0 -0.3 0
+        scale 0.6 0.1 0.6
+        sphere 0 0 0 1
+      popTransform
+      pushTransform
+        translate 0 1.03 0
+        scale 0.6 0.2 0.6
+        sphere 0 0 0 .5
+      popTransform
+      pushTransform
+        translate 0 1.4 0
+        rotate 1 0 0 90
+        scale 0.08 0.6 0.08
+        tri 0 1 5 
+        tri 0 5 4 
+        tri 3 7 6
+        tri 3 6 2
+        tri 1 2 6
+        tri 1 6 5 
+        tri 0 7 3 
+        tri 0 4 7 
+        tri 0 3 2 
+        tri 0 2 1
+        tri 4 5 6 
+        tri 4 6 7 
+      popTransform
+      pushTransform
+        translate 0 1.2 0
+        scale 0.2 0.2 0.2
+        tri 0 1 5 
+        tri 0 5 4 
+        tri 9 11 10
+        tri 9 10 8
+        tri 1 8 10
+        tri 1 10 5 
+        tri 0 11 9 
+        tri 0 4 11 
+        tri 0 9 8 
+        tri 0 8 1
+        tri 4 5 10 
+        tri 4 10 11 
+      popTransform
+      pushTransform
+        translate 0 1.5 0
+        rotate 1 0 0 180
+        scale 0.2 0.15 0.2
+        tri 0 1 5 
+        tri 0 5 4 
+        tri 9 11 10
+        tri 9 10 8
+        tri 1 8 10
+        tri 1 10 5 
+        tri 0 11 9 
+        tri 0 4 11 
+        tri 0 9 8 
+        tri 0 8 1
+        tri 4 5 10 
+        tri 4 10 11 
+      popTransform
+    popTransform
+  popTransform
+popTransform

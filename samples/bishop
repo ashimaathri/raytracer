@@ -1,0 +1,95 @@
+size 1280 960
+output art/bishop.png
+
+camera 10 10 14 0 0 0 0 1 0 40
+
+ambient 0 0 0
+
+directional 6.5 3 1 1 1 1
+directional -6.5 3 -1 1 1 1
+
+maxverts 12
+
+vertex -1 -1 -1
+vertex +1 -1 -1 
+vertex +1 +1 -1 
+vertex -1 +1 -1 
+vertex -1 -1 +1
+vertex +1 -1 +1 
+vertex +1 +1 +1
+vertex -1 +1 +1
+vertex 0.5 +1 -0.5
+vertex -0.5 +1 -0.5
+vertex 0.5 +1 +0.5
+vertex -0.5 +1 +0.5
+
+diffuse 0.6 0.6 0.6
+pushTransform
+  translate 0 1.1 0
+  scale 1 0.5 1
+  pushTransform
+    translate 0 -1 0
+    scale 1.5 0.1 1.5
+    sphere 0 0 0 1
+  popTransform
+  tri 0 1 5 
+  tri 0 5 4 
+  tri 9 11 10
+  tri 9 10 8
+  tri 1 8 10
+  tri 1 10 5 
+  tri 0 11 9 
+  tri 0 4 11 
+  tri 0 9 8 
+  tri 0 8 1
+  tri 4 5 10 
+  tri 4 10 11 
+popTransform
+
+pushTransform
+  translate 0 3 0
+  pushTransform
+    translate 0 -1.3 0
+    scale 1 0.1 1
+    sphere 0 0 0 1
+  popTransform
+  scale 0.5 1.5 0.5
+  tri 0 1 5 
+  tri 0 5 4 
+  tri 9 11 10
+  tri 9 10 8
+  tri 1 8 10
+  tri 1 10 5 
+  tri 0 11 9 
+  tri 0 4 11 
+  tri 0 9 8 
+  tri 0 8 1
+  tri 4 5 10 
+  tri 4 10 11 
+popTransform
+
+pushTransform
+  translate 0 4 0
+  pushTransform
+    translate 0 -0.3 0
+    scale 0.8 0.1 0.8
+    sphere 0 0 0 1
+  popTransform
+  pushTransform
+    translate 0 -0.2 0
+    scale 0.7 0.1 0.7
+    sphere 0 0 0 1
+  popTransform
+  pushTransform
+    translate 0 -0.1 0
+    scale 0.65 0.1 0.65
+    sphere 0 0 0 1
+  popTransform
+  pushTransform
+    scale 0.7 1.3 0.7
+    translate 0 0.2 0
+    sphere 0 0 0 0.7
+  popTransform
+  translate 0 1.2 0
+  sphere 0 0 0 0.17
+popTransform
